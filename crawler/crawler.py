@@ -31,7 +31,7 @@ async def store_book(doc: dict):
     doc["crawl_timestamp"] = datetime.now(timezone.utc)
     result = await db.books.update_one(
         {"source_url": doc["source_url"]},
-        {"$set": doc, "$setOnInsert": {"created_at": datetime.utcnow()}},
+        {"$set": doc, "$setOnInsert": {"created_at": datetime.now(timezone.utc)}},
         upsert=True
     )
     
