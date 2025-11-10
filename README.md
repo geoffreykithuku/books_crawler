@@ -288,3 +288,14 @@ To run the unit tests for the project:
 source .venv/bin/activate
 pytest
 ```
+
+## Screenshots
+
+Below are example screenshots captured from recent runs (crawler/scheduler/API).
+
+![Scheduler run - Nov 9 20:43](./Screenshot%20at%202025-11-09%2020-43-25.png)
+
+![Scheduler run - Nov 9 21:24](./Screenshot%20at%202025-11-09%2021-24-39.png)
+
+![Crawler run - Nov 10 20:31](./Screenshot%20at%202025-11-10%2020-31-44.png)
+
