@@ -1,0 +1,14 @@
+# requirements.txt
+httpx==0.24.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+motor==3.1.1
+pydantic==1.10.12
+fastapi==0.98.0
+uvicorn==0.22.0
+tenacity==8.2.2
+apscheduler==3.10.1
+pytest==7.4.0
+pytest-asyncio==0.21.0
+python-dotenv==1.0.0
+pymongo==4.4.0
